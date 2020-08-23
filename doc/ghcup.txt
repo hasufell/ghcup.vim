@@ -26,11 +26,11 @@ REQUIREMENTS                                       *ghcup-requirements*
 INSTALL                                                 *ghcup-install*
 
 By vim-plug: >
-    Plug 'hasufell/ghcup'
+    Plug 'hasufell/ghcup.vim'
 <
 
 By NeoBundle: >
-    NeoBundle 'hasufell/ghcup'
+    NeoBundle 'hasufell/ghcup.vim'
 <
 
 If you use Neovim, you have to add the dependency to the plugin bclose.vim:

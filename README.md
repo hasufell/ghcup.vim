@@ -14,10 +14,10 @@ Code and ideas inspired from [tig-explorer](https://github.com/iberianpig/tig-ex
 
 ```vim
 " vim-plug
-Plug 'hasufell/ghcup'
+Plug 'hasufell/ghcup.vim'
 
 " NeoBundle
-NeoBundle 'hasufell/ghcup'
+NeoBundle 'hasufell/ghcup.vim'
 ```
 
 **NOTE: If you use Neovim, you have to add the dependency to the plugin bclose.vim:**
