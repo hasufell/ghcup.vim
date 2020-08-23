@@ -6,6 +6,8 @@ Vim plugin to use [GHCup](https://gitlab.haskell.org/haskell/ghcup-hs) from with
 
 Code and ideas inspired from [tig-explorer](https://github.com/iberianpig/tig-explorer.vim).
 
+![GHCup](./ghcup.vim.gif)
+
 ## Requirement
 
 * [GHCup](https://www.haskell.org/ghcup/)
