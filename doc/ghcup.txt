@@ -1,0 +1,62 @@
+*ghcup.txt*  Plugin to use GHCup from within vim buffers
+
+==============================================================================
+CONTENTS                                               *ghcup-contents*
+
+- Introduction                                     |ghcup-introduction|
+- Requirements                                     |ghcup-requirements|
+- Install                                               |ghcup-install|
+- Commands                                             |ghcup-commands|
+- Customize                                           |ghcup-customize|
+
+==============================================================================
+INTRODUCTION                                       *ghcup-introduction*
+
+This plugins supports:
+
+- Seamless switching between Vim and GHCup
+- Support Vim8 / NeoVim terminal
+
+==============================================================================
+REQUIREMENTS                                       *ghcup-requirements*
+
+- GHCup: https://www.haskell.org/ghcup/
+
+==============================================================================
+INSTALL                                                 *ghcup-install*
+
+By vim-plug: >
+    Plug 'hasufell/ghcup'
+<
+
+By NeoBundle: >
+    NeoBundle 'hasufell/ghcup'
+<
+
+If you use Neovim, you have to add the dependency to the plugin bclose.vim:
+
+By vim-plug: >
+    Plug 'rbgrouleff/bclose.vim'
+<
+
+By NeoBundle: >
+    NeoBundle 'rbgrouleff/bclose.vim'
+<
+
+==============================================================================
+COMMANDS                                               *ghcup-commands*
+
+GHCup                                                 *:GHCup*
+    Open GHCup in the current buffer
+
+==============================================================================
+CUSTOMIZE                                             *ghcup-customize*
+
+And you can add following script to ~/.vimrc
+
+>
+    " open ghcup in the current buffer
+    nnoremap <Leader>g :GHCup<CR>
+<
+
+vim:textwidth=78:tabstop=4:shiftwidth=4:expandtab:filetype=help:norl:
