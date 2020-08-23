@@ -14,7 +14,7 @@ let g:loaded_ghcup = 1
 let s:save_cpo = &cpoptions
 set cpoptions&vim
 
-command! Ghcup
+command! GHCup
       \  call ghcup#ghcup_start()
 
 let &cpoptions = s:save_cpo
